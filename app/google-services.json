@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "909676098126",
+    "firebase_url": "https://maraduer-map.firebaseio.com",
+    "project_id": "maraduer-map",
+    "storage_bucket": "maraduer-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909676098126:android:3db7c376eb3e3231",
+        "android_client_info": {
+          "package_name": "com.example.android.friendlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909676098126-8bulta2k56mc73u4dhdpojt5bec9dprf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.friendlist",
+            "certificate_hash": "ee67561b64e11b6f46e9be0c8695178d0e55674d"
+          }
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0_BNK1sPwCHOxHv-ezniH8LjcV9R0ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909676098126:android:875826f41b75eba4",
+        "android_client_info": {
+          "package_name": "com.example.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909676098126-o4svck9o75dfkq7l0lq6m4358o4pi9f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.myapplication",
+            "certificate_hash": "ee67561b64e11b6f46e9be0c8695178d0e55674d"
+          }
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0_BNK1sPwCHOxHv-ezniH8LjcV9R0ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909676098126:android:ff22fe3214535c0a",
+        "android_client_info": {
+          "package_name": "com.example.martinosama.maraduermap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909676098126-ghlhktbmvp64ijtnbnvltpa3dmj7mqek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.martinosama.maraduermap",
+            "certificate_hash": "d66ecd85d0580a5ad985a0c2e03cf26120173671"
+          }
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0_BNK1sPwCHOxHv-ezniH8LjcV9R0ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909676098126-8ucsb59m9asmju7p52l8vhes0312b0e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

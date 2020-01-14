@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/login_gradient"
+    android:padding="16dp"
+    tools:context="com.example.martinosama.maraduermap.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:text="Search for a friend to add"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginBottom="8dp"
+    android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/studentNameOrIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_friend_name_or_id"
+        android:inputType="textPersonName|textCapWords"
+        android:textColor="#fff"
+        android:textColorHint="#95989A"
+        android:background="@drawable/roundshapetext"
+        android:paddingLeft="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/studentsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

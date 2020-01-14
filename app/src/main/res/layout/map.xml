@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/map_layout"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:id="@+id/linear"
+    android:layout_marginTop="3dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_height="32dp"
+        android:layout_width="32dp"
+        android:src="@drawable/current_location"
+        android:layout_weight="0"/>
+    <Spinner
+        android:id="@+id/currentLocationSpinner"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:textAlignment="center"
+        android:layout_weight="2"
+        android:paddingLeft="10dp"/>
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/dest"
+        android:layout_weight="0"/>
+    <Spinner
+        android:id="@+id/DestinationSpinner"
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="70dp"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:layout_weight="2"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/legendButton"
+        android:src="@drawable/info"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <!--<TextView-->
+        <!--android:id="@+id/floorTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_above="@+id/mapView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Floor:"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:textSize="18sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/buildingTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_above="@+id/mapView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:textSize="18sp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Building:" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tempSpinner"-->
+        <!--android:layout_width="79dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/mapView"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toEndOf="@+id/buildingTextView"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:textSize="18sp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="SS"/>-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:id="@+id/upButton"
+        android:src="@drawable/arrow_up"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+       android:layout_marginBottom="80dp" />
+    <Spinner
+        android:id="@+id/spinnerFloor"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/upButton"
+        android:background="@null"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:id="@+id/downButton"
+        android:src="@drawable/arrow_down"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/getLocation"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/on_shape"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/bank"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

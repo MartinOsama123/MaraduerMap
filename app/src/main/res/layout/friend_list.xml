@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/friend_request"
+        android:layout_gravity="center"
+        app:civ_border_color="#fff"
+        app:civ_border_width="2dp"
+        android:id="@+id/profilePic"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        tools:text="FRIEND" />
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        tools:text="FRIENDID" />
+
+</LinearLayout>
+</LinearLayout>

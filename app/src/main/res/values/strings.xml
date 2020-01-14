@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Marauder Map of MUST</string>
+    <string name="title_activity_login">Log in</string>
+    <string-array name="dropdown">
+        <item>F4</item>
+        <item>F3</item>
+        <item>F2</item>
+        <item>F1</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="Locations0">
+        <item>X</item>
+        <item>Xerox</item>
+        <item>F.L college department</item>
+        <item>Archive-Offices</item>
+        <item>Financial management</item>
+        <item>Exit to MC</item>
+        <item>Exit to PH</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+    </string-array>
+
+    <string-array name="Locations1">
+        <item>X</item>
+        <item>Entrance 3</item>
+        <item>Lab 101</item>
+        <item>Lab 102</item>
+        <item>Entrance 2</item>
+        <item>College Student Service</item>
+        <item>Banks</item>
+        <item>Bank Accounts</item>
+        <item>Lab 113B</item>
+        <item>Lab 113A</item>
+        <item>Lab 114A</item>
+        <item>Lab 114B</item>
+        <item>Theater 115</item>
+        <item>Theater 116A</item>
+        <item>Theater 116B</item>
+        <item>Theater 117</item>
+        <item>Basement</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+    </string-array>
+
+    <string-array name="Locations2">
+        <item>X</item>
+        <item>Lab 201</item>
+        <item>Lab 202</item>
+        <item>Room 206</item>
+        <item>Room 207</item>
+        <item>Room 208</item>
+        <item>Room 210</item>
+        <item>Room 211</item>
+        <item>Room 212</item>
+        <item>Teacher Assistant</item>
+        <item>Lab 216</item>
+        <item>Lab 217A</item>
+        <item>Lab 217B</item>
+        <item>Theater 218</item>
+        <item>Theater 219A</item>
+        <item>Theater 219B</item>
+        <item>Theater 220</item>
+        <item>Basement</item>
+        <item>Floor 1</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+    </string-array>
+
+    <string-array name="Locations3">
+        <item>X</item>
+        <item>Lab 301</item>
+        <item>Lab 302</item>
+        <item>Room 306</item>
+        <item>Room 307</item>
+        <item>Room 308</item>
+        <item>Room 310</item>
+        <item>Room 311</item>
+        <item>Room 312</item>
+        <item>Lab 316</item>
+        <item>Lab 317</item>
+        <item>Theater 318A</item>
+        <item>Theater 318B</item>
+        <item>Theater 319</item>
+        <item>Theater 320</item>
+        <item>Theater 321</item>
+        <item>Theater 322</item>
+        <item>Basement</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 4</item>
+    </string-array>
+
+    <string-array name="Locations4">
+        <item>X</item>
+        <item>Lab 401</item>
+        <item>Lab 402</item>
+        <item>Room 406</item>
+        <item>Room 407</item>
+        <item>Room 408</item>
+        <item>Room 410</item>
+        <item>Room 411</item>
+        <item>Room 412</item>
+        <item>Lab 416B</item>
+        <item>Lab 416A</item>
+        <item>Lab 417</item>
+        <item>Theater 418</item>
+        <item>Theater 419</item>
+        <item>Theater 420</item>
+        <item>Theater 421</item>
+        <item>Theater 422</item>
+        <item>Theater 423</item>
+        <item>Basement</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+    </string-array>
+
+
+    <string name="enter_friend_name_or_id">Enter Friend Name or ID</string>
+    <string name="title_activity_pending">PendingActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="name">Name:</string>
+    <string name="mohamed">Mohamed</string>
+    <string name="id">ID:</string>
+    <string name="_56895">56895</string>
+    <string name="last_known_location">Last known location:</string>
+    <string name="room_216">Room 216</string>
+    <string name="on_map">ON MAP</string>
+    <string name="title_activity_time_table">TimeTableActivity</string>
+</resources>

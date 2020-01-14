@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Code: "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        />
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:id="@+id/courseCodeSpinner"
+    android:layout_weight="1"/>
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Lecture"
+    android:id="@+id/lectureText"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:visibility="invisible"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="invisible"
+        android:id="@+id/lectureSep"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lectureDay"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/lectureDaySpinner"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lectureTime"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@android:color/black"
+            android:text="Time: "
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:id="@+id/lectureData"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Section"
+        android:id="@+id/sectionTextView"
+        android:textStyle="bold"
+
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/secionSep"
+        android:visibility="invisible"
+
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/sectionDay"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day: "
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/sectionDaySpinner"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/sectionTime"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:id="@+id/sectionData"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundshape"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/addCourseBtn"
+        android:text="Add Course"/>
+</LinearLayout>
